@@ -161,8 +161,7 @@ a:focus {
     font-size: 24px;
 }
 
-.homework-title,
-.game-title {
+.homework-title {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 10px;
@@ -225,12 +224,13 @@ a:focus {
     text-align: center;
 }
 
-
 .tabs-content {
     margin-bottom: 50px;
-    min-height: 150px;
 }
 
+.tabs-content > div {
+    min-height: 200px;
+}
 
 .tabs-link a {
     display: inline-block;
